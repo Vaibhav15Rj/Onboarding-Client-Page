@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Onboarding by vaibhav</title>
+    <link rel="stylesheet" href="media.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="branding">
+            <h1 class="finvestor">finvestor.in</h1>
+        </div>
+        <header>
+            <h1 class="header-title">Digital Onboarding for financial planning services</h1>
+        </header>
+        <div class="steps">
+            <div class="step">
+                <h2>Step 1. Complete Risk Profile</h2>
+                <p>Fill out our risk profile form to help us understand your investment preferences.</p>
+                <button onclick="location.href='https://form.typeform.com/to/lvQdR7vJ'">Go to Risk Profile</button>
+            </div>
+            <div class="step">
+                <h2>Step 2. Review Investment Advisory Agreement</h2>
+                <p>After you share your risk profile assessment, we will share an investment advisory agreement for you to review and e-sign. This will be shared via Digio. Please see the sample investment advisory agreement below.</p>
+                <button onclick="location.href='https://drive.google.com/file/d/17huFwX4kAwTZz_wuNhCLRQdvjGspuCtu/view?usp=drive_link'">View Sample Agreement</button>
+            </div>
+            <div class="step">
+                <h2>Step 3. Schedule a time with us for KYC to complete your onboarding.</h2>
+                <p>Once you sign the agreement, schedule time with an advisor to complete KYC and understand the process.</p>
+                <button onclick="location.href='https://calendly.com/finvestor/financial-planning-meeting-session-1-clone?back=1&month=2025-02'">Schedule Meeting</button>
+            </div>
+            <div class="step">
+                <h2>Step 4. Make Payment</h2>
+                <p>We only accept payment via direct bank transfer.</p>
+                <button onclick="toggleDropdown()">View Payment Details</button>
+                <div class="dropdown" id="dropdown">
+                    <img src="upi.jpeg" alt="UPI Payment QR Code">
+                    <div class="bank-details">
+                        <strong>Bank Details:</strong>
+                        <p>Account Name: Investment Advisor</p>
+                        <p>Account Number: XXXX XXXX XXXX</p>
+                        <p>IFSC Code: ABCD0001234</p>
+                        <p>Bank Name: Example Bank</p>
+                    </div>
+                </div>
+            </div>
+            <div class="step">
+                <h2>Step 5. Schedule Time for Financial Planning</h2>
+                <p>After you make your payment, your invoice will be uploaded to your data folder, and you should start filling out your data for your first session of financial planning.</p>
+                <button onclick="location.href='https://calendly.com/finvestor/create-your-financial-plan?back=1&month=2025-02'">Schedule Meeting</button>
+            </div>
+            
+        </div>
+        <footer>
+            <p>Powered by <img src="log2.png" class="footer-logo"></p>
+        </footer>
+        
+    </div>
+</body>
+</html>
